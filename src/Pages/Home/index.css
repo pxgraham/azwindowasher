@@ -2,7 +2,7 @@
     .s>h2 {
         display: grid;
         grid-template-columns: auto auto auto;
-        font-size: 20px;
+        font-size: 15px;
         text-decoration: underline;
     }
   }
