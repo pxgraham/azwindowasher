@@ -1,0 +1,155 @@
+.body {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    /* height: 100%; */
+    height: 100%;
+    background: rgb(243, 251, 255);
+}
+
+.body > div {
+    /* border: 1px solid black; */
+    display: inline-block;
+}
+
+.side-nav-g {
+    width: 19%;
+    /* height: 100%; */
+    background: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
+}
+
+.side-nav {
+    z-index: 2;
+    position: fixed;
+    top: 52px;
+    width: 19%;
+    height: 100%;
+    background: rgba(0, 64, 255, 0.19);
+    border-right: 1px solid white;
+    color: black;
+}
+.side-nav-small {
+    display: none;
+    z-index: 2;
+    position: fixed;
+    top: 52px;
+    width: 19%;
+    height: 100%;
+    background: rgba(0, 42, 255, 0.292);
+    border-right: 1px solid white;
+    color: black;
+}
+.side-nav-small-btn {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    background: none;
+    border: 1px solid white;
+}
+.side-nav-btn {
+    width: 100%;
+    background: rgba(255, 255, 255, 0);
+    height: 100%;
+    border: none;
+    color: black;
+    margin: 0px;
+    padding: 10px;
+    text-align: left;
+    font-size: 17px;
+
+}
+.side-nav-icon {
+    font-size: 25px;    
+}
+.side-nav-btn:hover {
+    cursor: pointer;
+    background: rgba(23, 78, 187, 0.363);
+}
+.nav-link {
+    /* padding: 10px; */    
+    border-bottom: 1px solid white;
+}
+
+.nav-active {
+    background: rgba(23, 78, 187, 0.363);
+}
+.nav-link-bottom-container {
+    position: absolute;
+    width: 100%;
+    bottom: 50px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+}
+.nav-link-bottom {
+    padding: 20px;
+}
+
+.main-content {
+    z-index: -1;
+    width: 79%;
+    /* height: 100%; */
+    color: black;
+}
+
+.container {
+    padding: 10px;
+    margin-left: 30px;
+}
+.grid-container {
+    border: none;
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(122, 101, 241, 0.8);
+    text-align: center;
+    font-size: 30px;
+  }
+
+.contact-input {
+    width: 40%;
+    font-size: 20px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+  .contact-field {
+      width: 80%;
+      font-size: 20px;
+      border-radius: 5px 5px 5px 5px;
+      padding: 10px;
+      margin-bottom: 20px;
+  }
+.contact-btn {
+    border-radius: 5px 5px 5px 5px;
+    font-size: 24px;
+    background: rgb(73, 73, 250);
+    padding: 7px;
+    color: black;
+    border: none;
+}
+
+  @media only screen and (max-width: 700px) {
+    .grid-container {
+        grid-template-columns: auto;
+      }
+    .side-nav {
+        display: none;
+    }
+    .side-nav-g {
+        display: none;
+    }
+    .side-nav-small {
+        display: block;
+    }
+    .container {
+        margin-left: 5px;
+    }
+  }

@@ -1,0 +1,33 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(16, 18, 22);
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+}
+.text-blue {
+  color: rgb(48, 67, 245);
+}
+.text-white {
+  color: white;
+}
+.text-red {
+  color: rgba(255, 0, 0, 0.527);
+}
+.text-green {
+  color: rgba(23, 233, 23, 0.747);
+}
+.text-purple {
+  color: magenta;
+}
+
+.space {
+  display: flex;
+  justify-content: space-between;
+}
