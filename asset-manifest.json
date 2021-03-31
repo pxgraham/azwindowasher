@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.03fe518d.chunk.css",
-    "main.js": "/static/js/main.32c4f8b8.chunk.js",
-    "main.js.map": "/static/js/main.32c4f8b8.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.476549a2.js",
-    "runtime-main.js.map": "/static/js/runtime-main.476549a2.js.map",
-    "static/js/2.f9e149db.chunk.js": "/static/js/2.f9e149db.chunk.js",
-    "static/js/2.f9e149db.chunk.js.map": "/static/js/2.f9e149db.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.03fe518d.chunk.css.map": "/static/css/main.03fe518d.chunk.css.map",
-    "static/js/2.f9e149db.chunk.js.LICENSE.txt": "/static/js/2.f9e149db.chunk.js.LICENSE.txt"
+    "main.css": "/azwindowasher/static/css/main.03fe518d.chunk.css",
+    "main.js": "/azwindowasher/static/js/main.32c4f8b8.chunk.js",
+    "main.js.map": "/azwindowasher/static/js/main.32c4f8b8.chunk.js.map",
+    "runtime-main.js": "/azwindowasher/static/js/runtime-main.b7638e12.js",
+    "runtime-main.js.map": "/azwindowasher/static/js/runtime-main.b7638e12.js.map",
+    "static/js/2.f9e149db.chunk.js": "/azwindowasher/static/js/2.f9e149db.chunk.js",
+    "static/js/2.f9e149db.chunk.js.map": "/azwindowasher/static/js/2.f9e149db.chunk.js.map",
+    "index.html": "/azwindowasher/index.html",
+    "static/css/main.03fe518d.chunk.css.map": "/azwindowasher/static/css/main.03fe518d.chunk.css.map",
+    "static/js/2.f9e149db.chunk.js.LICENSE.txt": "/azwindowasher/static/js/2.f9e149db.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.476549a2.js",
+    "static/js/runtime-main.b7638e12.js",
     "static/js/2.f9e149db.chunk.js",
     "static/css/main.03fe518d.chunk.css",
     "static/js/main.32c4f8b8.chunk.js"
